@@ -7,7 +7,7 @@ Collection of Causal Network Analysis lectures.
 
 This lecture is for the **R** environment version >= 4.0.
 
-Reference repo for SEMgraph available [**HERE**](https://github.com/fernandoPalluzzi/SEMgraph)
+Reference repo for the **SEMgraph** project available [**HERE**](https://github.com/fernandoPalluzzi/SEMgraph)
 
 ```r
 # Library devtools is required to download the development versions
