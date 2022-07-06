@@ -296,7 +296,7 @@ sem <- SEMrun(G, semdata, y)
 
 # Group perturbation effect over system variables:
 # the variation induced in a variable by the phenoptype, 
-# moving from the control group to the cases one.
+# moving from the control group (baseline) to the cases one.
 
 # Evaluating system status
 summary(sem$fit, rsquare = TRUE, fit.measures = TRUE)
