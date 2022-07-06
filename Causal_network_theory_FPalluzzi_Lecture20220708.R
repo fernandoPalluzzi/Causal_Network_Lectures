@@ -82,7 +82,7 @@ E(G)$width <- c(1, 2, 1, 1, 2, 2, 1)
 
 G
 
-gplot(G, fontsize = 24)
+gplot(G, fontsize = 32)
 
 
 # Create the path diagram (causal network) corresponding to the brain 
@@ -301,7 +301,7 @@ sem <- SEMrun(G, semdata, y)
 # Evaluating system status
 summary(sem$fit, rsquare = TRUE, fit.measures = TRUE)
 
-gplot(sem$graph, fontsize = 24)
+gplot(sem$graph, fontsize = 32)
 
 
 # Adding more parameters (IE and covariance)
