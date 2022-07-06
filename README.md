@@ -65,13 +65,15 @@ library(huge)
 
 ## Troubleshooting
 
+Sometimes, the installation with devtools might break due to some missing dependency. Each time a dependency is missing, devtools will launch an error message with its name. In thise case, you should manually install it and restart the devtools installation. Packages can be installed either from [**CRAN**](https://cran.r-project.org/) or [**Bioconductor**](https://www.bioconductor.org/).
+
 To install from CRAN, you can use:
 
 ```r
 install.packages("PACKAGE")
 ```
 
-Just substitute "PACKAGE" with the actual [**CRAN**](https://cran.r-project.org/) package name.
+Just substitute "PACKAGE" with the actual CRAN package name.
 Here is the list of CRAN dependencies:
 
 - igraph (>= 1.2.1)
@@ -102,7 +104,7 @@ if (!require("BiocManager", quietly = TRUE))
 BiocManager::install("PACKAGE")
 ```
 
-Just substitute "PACKAGE" with the actual [**Bioconductor**](https://www.bioconductor.org/) package name.
+Just substitute "PACKAGE" with the actual Bioconductor package name.
 
 Here is the list of Bioconductor dependencies:
 - Rgraphviz (≥ 2.22.0)
