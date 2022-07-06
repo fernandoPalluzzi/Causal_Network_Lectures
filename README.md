@@ -1,6 +1,6 @@
 # Causal Network Lectures
-Collection of Causal Network Analysis lectures.
- &nbsp;
+Collection of Causal Network Analysis lectures. &nbsp;
+
 
 ## Main libraries installation
 
