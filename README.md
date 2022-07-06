@@ -1,5 +1,7 @@
 # Causal_Network_Lectures
-Collection of Causal Network Analysis lectures
+Collection of Causal Network Analysis lectures.
+
+
 
 ## Main libraries installation
 
@@ -29,7 +31,7 @@ library(SEMgraph)
 library(SEMdata)
 ```
 
-Reference repo for SEMgraph (HERE)[https://github.com/fernandoPalluzzi/SEMgraph]
+Reference repo for SEMgraph [HERE](https://github.com/fernandoPalluzzi/SEMgraph)
 
 
 
