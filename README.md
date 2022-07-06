@@ -70,7 +70,7 @@ To install from CRAN, you can use:
 install.packages("PACKAGE")
 ```
 
-Just substitute "PACKAGE" with the actual CRAN package name.
+Just substitute "PACKAGE" with the actual [**CRAN**](https://cran.r-project.org/) package name.
 Here is the list of CRAN dependencies:
 
 - igraph (>= 1.2.1)
@@ -101,7 +101,7 @@ if (!require("BiocManager", quietly = TRUE))
 BiocManager::install("PACKAGE")
 ```
 
-Just substitute "PACKAGE" with the actual Bioconductor package name.
+Just substitute "PACKAGE" with the actual [**Bioconductor**](https://www.bioconductor.org/) package name.
 
 Here is the list of Bioconductor dependencies:
 - Rgraphviz (≥ 2.22.0)
