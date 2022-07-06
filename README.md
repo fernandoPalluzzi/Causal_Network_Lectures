@@ -77,8 +77,8 @@ Just substitute "PACKAGE" with the actual CRAN package name.
 
 Here is the list of CRAN dependencies:
 
-- igraph (>= 1.2.1)
-- lavaan (>= 0.5-23)
+- igraph (≥ 1.2.1)
+- lavaan (≥ 0.5-23)
 - boot (≥ 1.3-25)
 - cate (≥ 1.0.4)
 - corpcor (≥ 1.6.9)
