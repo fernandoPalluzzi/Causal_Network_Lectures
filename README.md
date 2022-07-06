@@ -35,7 +35,7 @@ Reference repo for SEMgraph (HERE)[https://github.com/fernandoPalluzzi/SEMgraph]
 
 ## Additional R packages
 
-```
+```r
 # Homo sapiens annotation data (Bioconductor package)
 
 if (!require("BiocManager", quietly = TRUE))
