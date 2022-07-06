@@ -306,15 +306,15 @@ path.ie <- '
 # Path diagram
 DLPFC.d ~ b1*Temp.d
 Pariet.d ~ b2*Temp.d
-Orbit.d ~ b6*Pariet.d + b4*DLPFC.d
-AntCing.d ~ b3*Temp.d + b7*Orbit.d + b5*DLPFC.d
+Orbit.d ~ b3*Pariet.d + b4*DLPFC.d
+AntCing.d ~ b5*Temp.d + b6*Orbit.d + b7*DLPFC.d
 
 # Covariance
 Pariet.d ~~ DLPFC.d
 
 # Indirect effect
-IE1:= b1*b4*b7
-IE2:= b1*b5'
+IE1:= b1*b4*b6
+IE2:= b1*b7'
 
 #  ~ direct effect (DE)
 # ~~ lavaan syntax to define a new covariance
