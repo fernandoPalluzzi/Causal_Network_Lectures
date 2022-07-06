@@ -47,7 +47,7 @@ BiocManager::install("org.Hs.eg.db")
 library(org.Hs.eg.db)
 
 
-# Applied regression functions: q-q plot (CRAN package)
+# Applied regression functions (CRAN package)
 
 install.packages("car")
 
