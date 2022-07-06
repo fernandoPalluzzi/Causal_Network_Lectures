@@ -294,6 +294,11 @@ y <- ifelse(brain.data$groups == 1, 0, 1)
 
 sem <- SEMrun(G, semdata, y)
 
+# Group perturbation effect over system variables:
+# the variation induced in a variable by the phenoptype, 
+# moving from control to cases.
+
+# Evaluating system status
 summary(sem$fit, rsquare = TRUE, fit.measures = TRUE)
 
 gplot(sem$graph, fontsize = 24)
