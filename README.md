@@ -1,6 +1,8 @@
 # Causal Network Lectures
 Collection of Causal Network Analysis lectures.
 
+![alt text](https://github.com/fernandoPalluzzi/Causal_Network_Lectures/blob/main/ALS_LCC.png?raw=true)
+
   &nbsp;
 
 ## Main libraries installation
