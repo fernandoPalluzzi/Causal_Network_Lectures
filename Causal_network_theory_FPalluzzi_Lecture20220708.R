@@ -539,10 +539,10 @@ reference
 # model <- modelSearch(G1, als.npn, gnet = reference, d = 2, search = "inner", beta = 0)
 
 
-# OUTNER. The reference network is used to validate new inferred connections.
-#         Mediated connections are allowed.
-#         Mediators can be imported from the reference network.
-#         A maximum of d - 1 mediators is allowed.
+# OUTER. The reference network is used to validate new inferred connections.
+#        Mediated connections are allowed.
+#        Mediators can be imported from the reference network.
+#        A maximum of d - 1 mediators is allowed.
 
 model <- modelSearch(G1, als.npn, gnet = reference, d = 2, search = "outer", beta = 0)
 
