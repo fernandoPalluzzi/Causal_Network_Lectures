@@ -1,11 +1,10 @@
-# Causal_Network_Lectures
+# Causal Network Lectures
 Collection of Causal Network Analysis lectures.
-
-
+&nbsp;
 
 ## Main libraries installation
 
-This lecture is for the R environment version >= 4.0.
+This lecture is for the R environment version >= 4.0. Reference repo for SEMgraph [HERE](https://github.com/fernandoPalluzzi/SEMgraph)
 
 ```r
 # Library devtools is required to download the development versions
@@ -30,10 +29,7 @@ library(SEMgraph)
 # Load required datasets
 library(SEMdata)
 ```
-
-Reference repo for SEMgraph [HERE](https://github.com/fernandoPalluzzi/SEMgraph)
-
-
+&nbsp;
 
 ## Additional R packages
 
@@ -61,6 +57,7 @@ install.packages("huge")
 
 library(huge)
 ```
+&nbsp;
 
 ## Troubleshooting
 
