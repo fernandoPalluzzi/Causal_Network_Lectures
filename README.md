@@ -9,7 +9,7 @@ Collection of Causal Network Analysis lectures.
 
 This lecture is for the **R** environment **version >= 4.0**.
 
-Reference repo for the **SEMgraph** project available [**HERE**](https://github.com/fernandoPalluzzi/SEMgraph)
+The reference repo for the **SEMgraph** project is available [**HERE**](https://github.com/fernandoPalluzzi/SEMgraph).
 
 ```r
 # Library devtools is required to download the development versions from GitHub.
@@ -65,7 +65,7 @@ library(huge)
 
 ## Troubleshooting
 
-Sometimes, the installation with devtools might break due to some missing dependency. Each time a dependency is missing, devtools will launch an error message with its name. In thise case, you should manually install it and restart the devtools installation. Packages can be installed either from [**CRAN**](https://cran.r-project.org/) or [**Bioconductor**](https://www.bioconductor.org/).
+Sometimes, the installation with devtools might break due to a missing dependency. Each time a dependency is missing, devtools will launch an error message with its name. In thise case, you should manually install it and restart the devtools installation. Packages can be installed either from [**CRAN**](https://cran.r-project.org/) or [**Bioconductor**](https://www.bioconductor.org/).
 
 To install from CRAN, you can use:
 
@@ -74,6 +74,7 @@ install.packages("PACKAGE")
 ```
 
 Just substitute "PACKAGE" with the actual CRAN package name.
+
 Here is the list of CRAN dependencies:
 
 - igraph (>= 1.2.1)
