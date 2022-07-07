@@ -189,8 +189,8 @@ summary(fit, rsquare = TRUE, fit.measures = TRUE)
 # by its score z = (b - beta0)/SE, where SE is the standard error and 
 # beta0 (usually, equal to 0) is the effect size under null hypothesis.
 # If data distribution deviates from normality (this is often the case), 
-# robust SE estimation methods, including Huber-White "sandwitch" or 
-# bootstrap estimation, can be use to reduce the impact of normality 
+# robust SE estimation methods, including Huber-White "sandwitch" and 
+# bootstrap estimation, can be used to reduce the impact of normality 
 # constraints violation.
 
 # The SE allow us to calculate also the 95% confidence interval (CI) 
